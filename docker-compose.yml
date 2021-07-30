@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  server:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=1234
+    volumes:
+      - ./data:/var/lib/mysql
+      - ./scripts:/root/scripts

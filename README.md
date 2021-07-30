@@ -1,4 +1,4 @@
-# Local MySQL Docker container
+# MySQL Docker container
 
 > docker-compose up
 
